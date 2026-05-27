@@ -1,4 +1,4 @@
-![Poster Image](c:/amakalu/ImageSearch/BIM.png)
+![Poster Image](BIM.png)
 🔧 Requires Python **3.11**
 # Biometric-Identity-Matching (BIM)
 
