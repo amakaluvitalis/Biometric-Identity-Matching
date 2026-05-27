@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<div class="text-center py-5">
+    <h1 class="display-4 mb-4">Welcome to the Missing Child Image Search</h1>
+    <p class="lead mb-4">Upload and search for missing child images using AI‑powered facial similarity.</p>
+    <a class="btn btn-primary btn-lg me-3" href="{% url 'submit_child' %}">Submit a Child</a>
+    <a class="btn btn-outline-primary btn-lg" href="{% url 'search_child' %}">Search for a Child</a>
+</div>
+{% endblock %}

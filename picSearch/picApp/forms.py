@@ -1,13 +1,19 @@
 from django import forms
+from django.forms import DateInput
 from .models import MissingChild
 
 class MissingChildForm(forms.ModelForm):
     class Meta:
         model = MissingChild
         fields = ['name', 'age', 'gender', 'image', 'date_missing', 'place_of_birth', 'last_seen', 'guardian_name', 'guardian_contact']
+        widgets = {
+            'date_missing': DateInput(attrs={'type': 'date', 'class': 'form-control'}),
+            'last_seen': DateInput(attrs={'type': 'date', 'class': 'form-control'}),
+        }
 
     def __init__(self, *args, **kwargs):
         super(MissingChildForm, self).__init__(*args, **kwargs)
+        
         
         # Set required attribute for specific fields
         self.fields['image'].required = True

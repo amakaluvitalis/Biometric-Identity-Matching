@@ -1,60 +1,59 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <div class="search-container">
-        <h2>Search for Missing Child</h2>
-        {% if error %}
-                <div class="error-message">{{ error }}</div>
-        {% endif %}
-        <form method="post" enctype="multipart/form-data" class="search-form">
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h2 class="card-title text-center mb-4">Search for Missing Child</h2>
+          {% if error %}
+            <div class="alert alert-danger" role="alert">{{ error }}</div>
+          {% endif %}
+          <form method="post" enctype="multipart/form-data" class="search-form">
             {% csrf_token %}
-            <div class="form-group">
-                <label for="image">Upload Child Image:</label>
-                <input type="file" name="image" id="image" required onchange="previewImage(event)">
+            <div class="mb-3">
+              <label for="image" class="form-label">Upload Child Image</label>
+              <input type="file" name="image" id="image" class="form-control" required onchange="previewImage(event)">
             </div>
-            <div class="image-preview-container">
-                <img id="preview" src="" alt="Preview Image" style="display: none; max-width: 100%; max-height: 300px; margin-bottom: 20px; object-fit: contain;">
+            <div class="mb-3 text-center">
+              <img id="preview" src="" alt="Preview Image" class="img-fluid" style="display:none; max-height:300px; object-fit:contain;">
             </div>
-            <button type="submit" class="search-btn">Search</button>
-        </form>
-        <div id="loading-spinner" style="display: none;">
+            <div class="d-grid gap-2">
+              <button type="submit" class="btn btn-primary btn-lg">Search</button>
+            </div>
+          </form>
+          <div id="loading-spinner" class="text-center mt-4" style="display:none;">
             <div class="spinner-border text-primary" role="status">
-                <span class="sr-only">Finding match...</span>
+              <span class="visually-hidden">Finding match...</span>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-    <style>
-        .error-message {
-            background-color: #f8d7da;
-            color: #721c24;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #f5c6cb;
-            border-radius: 4px;
-        }
-    </style>
-    <script>
-        function previewImage(event) {
-            var input = event.target;
-            var preview = document.getElementById('preview');
+  </div>
+</div>
 
-            if (input.files && input.files[0]) {
-                var reader = new FileReader();
+<script>
+function previewImage(event) {
+  const input = event.target;
+  const preview = document.getElementById('preview');
+  if (input.files && input.files[0]) {
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      preview.src = e.target.result;
+      preview.style.display = 'block';
+    };
+    reader.readAsDataURL(input.files[0]);
+  } else {
+    preview.src = '';
+    preview.style.display = 'none';
+  }
+}
 
-                reader.onload = function (e) {
-                    preview.src = e.target.result;
-                    preview.style.display = 'block';
-                }
-
-                reader.readAsDataURL(input.files[0]);
-            } else {
-                preview.src = '';
-                preview.style.display = 'none';
-            }
-        }
-
-        document.querySelector('.search-form').addEventListener('submit', function() {
-            document.getElementById('loading-spinner').style.display = 'block';
-        });
-    </script>
+document.querySelector('.search-form').addEventListener('submit', function () {
+  document.getElementById('loading-spinner').style.display = 'block';
+});
+</script>
 {% endblock %}
+

@@ -1,34 +1,133 @@
 {% extends 'base.html' %}
 
+{% block title %}Search Results - Missing Children Search{% endblock %}
+
 {% block content %}
-    <div class="results-container">
-        <h2>Search Results</h2>
-        {% if similar_children %}
-        <h3>Found Match</h3>
-            <div class="grid">
-            {% for child, distance in similar_children %}
-                <div class="card">
-                    <div class="card-img-container">
-                        <img class="card-img" src="{{ child.image.url }}" alt="{{ child.name }}">
-                    </div>
-                    <div class="card-body">
-                        <div class="inline-elements">
-                            <h3 class="percentage">Similarity: {{ distance }}% </h3>
-                            <h4 class="card-title">{{ child.name }}</h4>
-                        </div>
-                        <p>Age: {{ child.age }}</p>
-                        <p>Date Missing: {{ child.date_missing }}</p>
-                        <p>Place of Birth: {{ child.place_of_birth }}</p>
-                        <p>Place Last Seen: {{ child.last_seen }}</p>
-                        <p>Guardian Name: {{ child.guardian_name }}</p>
-                        <p>Guardian Contact: {{ child.guardian_contact }}</p>
-                        <!--<p>Similarity Distance: {{ distance }}</p>-->
-                    </div>
-                </div>
-            {% endfor %}
-            </div>
-        {% else %}
-            <p>No similar faces found.</p>
-        {% endif %}
+<div class="container py-5">
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="h3 mb-0 text-dark font-weight-bold">Search Results</h2>
+    <a href="{% url 'search_child' %}" class="btn btn-outline-secondary btn-sm">
+      <i class="bi bi-arrow-left"></i> Search Again
+    </a>
+  </div>
+
+  {% if similar_children %}
+    <!-- Searched Image Preview at the top of results -->
+    <div class="row mb-5 justify-content-center">
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow-sm border-0 text-center p-3 bg-white search-query-card">
+          <h5 class="card-title text-muted mb-2 fs-6 fw-semibold text-uppercase tracking-wider">Your Searched Image</h5>
+          <div class="ratio ratio-4x3 bg-light rounded overflow-hidden mb-2" style="max-width: 250px; margin: 0 auto; border: 1px solid #e9ecef;">
+            <img src="{{ search_image_url }}" alt="Searched Query Image" style="object-fit: contain; width: 100%; height: 100%;" />
+          </div>
+          <p class="text-muted mb-0 small px-2">Hold down any child's photo below to compare it with this searched image.</p>
+        </div>
+      </div>
     </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      {% for child, similarity in similar_children %}
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0 position-relative child-card">
+            <!-- Similarity Badge (on top of image) -->
+            <span class="position-absolute top-0 end-0 m-3 badge {% if similarity >= 85 %}bg-success{% elif similarity >= 75 %}bg-warning text-dark{% else %}bg-secondary{% endif %} px-3 py-2 fs-6 shadow-sm" style="z-index: 10;">
+              {{ similarity }}% Match
+            </span>
+            
+            <!-- Child Image with Hold to Compare Overlay -->
+            <div class="ratio ratio-4x3 card-img-wrapper compare-container" style="background-color: #f1f3f5; cursor: pointer; user-select: none;" oncontextmenu="return false;">
+              <!-- Matched Child's Image -->
+              <img src="{{ child.image.url }}" class="card-img-top result-img" alt="{{ child.name }}" style="object-fit: contain; width: 100%; height: 100%;" />
+              
+              <!-- Searched Query Image -->
+              <img src="{{ search_image_url }}" class="card-img-top search-compare-img" alt="Searched Image" style="object-fit: contain; width: 100%; height: 100%; position: absolute; top: 0; left: 0; opacity: 0; transition: opacity 0.25s ease; pointer-events: none;" />
+              
+              <!-- Compare Overlay -->
+              <div class="compare-overlay position-absolute bottom-0 start-50 translate-middle-x mb-2 px-3 py-1 bg-dark bg-opacity-75 text-white rounded-pill text-center" style="font-size: 0.72rem; pointer-events: none; transition: opacity 0.2s; z-index: 5;">
+                <span class="text-compare">Hold Image to Compare</span>
+                <span class="text-showing d-none">Showing Searched Image</span>
+              </div>
+            </div>
+
+            <!-- Card Body -->
+            <div class="card-body p-4">
+              <div class="d-flex justify-content-between align-items-start mb-3">
+                <h4 class="card-title text-primary mb-0">{{ child.name }}</h4>
+                <span class="badge rounded-pill {% if similarity >= 85 %}similarity-high{% elif similarity >= 75 %}similarity-mid{% else %}similarity-low{% endif %} ms-2 flex-shrink-0">
+                  {{ similarity }}%
+                </span>
+              </div>
+              
+              <div class="child-info-list mb-3">
+                <div class="d-flex justify-content-between align-items-center py-2 border-bottom border-light">
+                  <span class="text-muted small fw-medium">Age:</span>
+                  <span class="text-dark fw-semibold">{{ child.age }} years old</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center py-2 border-bottom border-light">
+                  <span class="text-muted small fw-medium">Gender:</span>
+                  <span class="text-dark fw-semibold">
+                    {% if child.gender == 'M' %}Male{% elif child.gender == 'F' %}Female{% else %}Other{% endif %}
+                  </span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center py-2 border-bottom border-light">
+                  <span class="text-muted small fw-medium">Date Missing:</span>
+                  <span class="text-dark fw-semibold">{{ child.date_missing|date:"M. d, Y" }}</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center py-2 border-bottom border-light">
+                  <span class="text-muted small fw-medium">Place of Birth:</span>
+                  <span class="text-dark fw-semibold text-end" style="max-width: 60%; word-break: break-word;">{{ child.place_of_birth }}</span>
+                </div>
+                <div class="d-flex justify-content-between align-items-center py-2">
+                  <span class="text-muted small fw-medium text-danger">Last Seen:</span>
+                  <span class="text-danger fw-semibold text-end" style="max-width: 60%; word-break: break-word;">{{ child.last_seen }}</span>
+                </div>
+              </div>
+
+              <hr class="text-muted my-3" />
+
+              <div class="guardian-info bg-light p-3 rounded">
+                <div class="small text-muted mb-1">Guardian Contact:</div>
+                <div class="fw-bold text-dark mb-1">{{ child.guardian_name }}</div>
+                <a href="tel:{{ child.guardian_contact }}" class="btn btn-sm btn-outline-primary w-100 mt-2 d-flex align-items-center justify-content-center">
+                  {{ child.guardian_contact }}
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="text-center py-5">
+      <div class="mb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="text-muted" viewBox="0 0 16 16">
+          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+          <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z"/>
+        </svg>
+      </div>
+      <h3 class="h4 text-dark mb-2">No Matches Found</h3>
+      <p class="text-muted mb-4">We couldn't find any child with similar facial features in our database.</p>
+      <a href="{% url 'search_child' %}" class="btn btn-primary">Try Another Image</a>
+    </div>
+  {% endif %}
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const containers = document.querySelectorAll('.compare-container');
+  containers.forEach(container => {
+    function startCompare(e) {
+      container.classList.add('active-compare');
+    }
+    function stopCompare() {
+      container.classList.remove('active-compare');
+    }
+    
+    // Modern Pointer Events (covers Mouse, Touch, and Stylus inputs)
+    container.addEventListener('pointerdown', startCompare);
+    container.addEventListener('pointerup', stopCompare);
+    container.addEventListener('pointerleave', stopCompare);
+    container.addEventListener('pointercancel', stopCompare);
+  });
+});
+</script>
 {% endblock %}

@@ -1,0 +1,149 @@
+/* Custom form styling – clean, modern, responsive */
+.submit-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: rgba(255,255,255,0.93);
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.12);
+}
+
+.submit-container h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+/* Grid layout for fields */
+.submit-form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1rem;
+}
+
+/* Make all inputs full‑width and nicer */
+.submit-form input,
+.submit-form select,
+.submit-form textarea {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #fafafa;
+    transition: border-color .2s;
+}
+.submit-form input:focus,
+.submit-form select:focus,
+.submit-form textarea:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+/* File input button style */
+.submit-form input[type="file"] {
+    padding: 0.4rem;
+    background: #fff;
+}
+
+/* Submit button */
+.submit-btn {
+    grid-column: 1 / -1;            /* full width */
+    padding: 0.75rem 1.5rem;
+    background: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background .2s;
+}
+.submit-btn:hover {
+    background: #357ab8;
+}
+
+/* Validation / error messages */
+.field-errors {
+    color: #d93025;
+    font-size: .9rem;
+    margin-top: .25rem;
+}
+
+/* Search results card styling */
+.child-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px !important;
+    overflow: hidden;
+}
+
+.child-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15) !important;
+}
+
+.card-img-wrapper {
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+.card-img-wrapper img {
+    transition: transform 0.5s ease;
+}
+
+.child-card:hover .card-img-wrapper img {
+    transform: scale(1.06);
+}
+
+.child-info-list div {
+    border-bottom: 1px dashed rgba(0,0,0,0.08);
+}
+
+.child-info-list div:last-child {
+    border-bottom: none;
+}
+
+/* Compare Container and Overlay Styling */
+
+
+
+/* Similarity badge colors for result cards */
+.similarity-high {
+  background-color: #28a745 !important; /* green */
+  color: #fff;
+}
+.similarity-mid {
+  background-color: #ffc107 !important; /* amber */
+  color: #212529;
+}
+.compare-overlay {
+  background: transparent !important;
+  box-shadow: none !important;
+  display: none !important;
+}
+.compare-container.active-compare .compare-overlay {
+  display: none !important;
+}
+.compare-overlay .text-compare,
+.compare-overlay .text-showing {
+  display: none !important;
+}
+.compare-overlay .text-showing {
+  display: none !important;
+}
+
+/* Compare container base */
+.compare-container {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Searched image overlay hidden by default */
+.search-compare-img {
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+.compare-container.active-compare .search-compare-img {
+  opacity: 1 !important;
+}
+

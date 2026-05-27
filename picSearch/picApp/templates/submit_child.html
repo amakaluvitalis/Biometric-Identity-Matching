@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 
+{% block title %}Submit Missing Child{% endblock %}
+
 {% block content %}
 <div class="submit-container">
     <h2>Submit Missing Child Information</h2>
@@ -10,9 +12,7 @@
                 {{ field.label_tag }}
                 {{ field }}
                 {% if field.errors %}
-                    <div class="field-errors">
-                        {{ field.errors }}
-                    </div>
+                    <div class="field-errors">{{ field.errors }}</div>
                 {% endif %}
             </div>
         {% endfor %}

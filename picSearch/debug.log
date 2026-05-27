@@ -1233,3 +1233,2226 @@ django.utils.datastructures.MultiValueDictKeyError: 'image'
 Internal Server Error: /api/search_child_api/
 Creating converter from 3 to 5
 Bad Request: /api/search_child_api/
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+C:\amakalu\ImageSearch\picSearch\picSearch\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Not Found: /
+Not Found: /favicon.ico
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Not Found: /
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Not Found: /
+Not Found: /
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Internal Server Error: /submit/
+Traceback (most recent call last):
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\picApp\views.py", line 50, in submit_child
+    return render(request, "submit_child.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 226, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'content' appears more than once
+Internal Server Error: /submit/
+Traceback (most recent call last):
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\picApp\views.py", line 50, in submit_child
+    return render(request, "submit_child.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 226, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'title' appears more than once
+Internal Server Error: /submit/
+Traceback (most recent call last):
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\picApp\views.py", line 50, in submit_child
+    return render(request, "submit_child.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 226, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'title' appears more than once
+Internal Server Error: /submit/
+Traceback (most recent call last):
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\picApp\views.py", line 50, in submit_child
+    return render(request, "submit_child.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 226, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'title' appears more than once
+Internal Server Error: /submit/
+Traceback (most recent call last):
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\picApp\views.py", line 50, in submit_child
+    return render(request, "submit_child.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 226, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'title' appears more than once
+Internal Server Error: /submit/
+Traceback (most recent call last):
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\picApp\views.py", line 50, in submit_child
+    return render(request, "submit_child.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 226, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'title' appears more than once
+Internal Server Error: /submit/
+Traceback (most recent call last):
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\picApp\views.py", line 50, in submit_child
+    return render(request, "submit_child.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 226, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'title' appears more than once
+Internal Server Error: /submit/
+Traceback (most recent call last):
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\picApp\views.py", line 50, in submit_child
+    return render(request, "submit_child.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 226, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'title' appears more than once
+Internal Server Error: /submit/
+Traceback (most recent call last):
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\picApp\views.py", line 50, in submit_child
+    return render(request, "submit_child.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 226, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'title' appears more than once
+Internal Server Error: /submit/
+Traceback (most recent call last):
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\picApp\views.py", line 50, in submit_child
+    return render(request, "submit_child.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 226, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'title' appears more than once
+Internal Server Error: /submit/
+Traceback (most recent call last):
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\picApp\views.py", line 50, in submit_child
+    return render(request, "submit_child.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 226, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'title' appears more than once
+Internal Server Error: /submit/
+Traceback (most recent call last):
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\picApp\views.py", line 50, in submit_child
+    return render(request, "submit_child.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 226, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'title' appears more than once
+Internal Server Error: /submit/
+Traceback (most recent call last):
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\picApp\views.py", line 50, in submit_child
+    return render(request, "submit_child.html", {"form": form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 226, in do_block
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'block' tag with name 'title' appears more than once
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 110 - value: b'Canon\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 116 - value: b'Canon EOS 250D\x00'
+tag: XResolution (282) - type: rational (5) Tag Location: 46 - Data Location: 132 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: YResolution (283) - type: rational (5) Tag Location: 58 - Data Location: 140 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+tag: Software (305) - type: string (2) Tag Location: 82 - Data Location: 148 - value: <table: 49 bytes>
+tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 198 - value: b'2026:02:09 15:41:01\x00'
+tag: ExifIFD (34665) - type: long (4) - value: b'\xda\x00\x00\x00'
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FitsStubImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 110 - value: b'Canon\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 116 - value: b'Canon EOS 250D\x00'
+tag: XResolution (282) - type: rational (5) Tag Location: 46 - Data Location: 132 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: YResolution (283) - type: rational (5) Tag Location: 58 - Data Location: 140 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+tag: Software (305) - type: string (2) Tag Location: 82 - Data Location: 148 - value: <table: 49 bytes>
+tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 198 - value: b'2026:02:09 15:41:01\x00'
+tag: ExifIFD (34665) - type: long (4) - value: b'\xda\x00\x00\x00'
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 110 - value: b'Canon\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 116 - value: b'Canon EOS 250D\x00'
+tag: XResolution (282) - type: rational (5) Tag Location: 46 - Data Location: 132 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: YResolution (283) - type: rational (5) Tag Location: 58 - Data Location: 140 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+tag: Software (305) - type: string (2) Tag Location: 82 - Data Location: 148 - value: <table: 49 bytes>
+tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 198 - value: b'2026:02:09 15:41:07\x00'
+tag: ExifIFD (34665) - type: long (4) - value: b'\xda\x00\x00\x00'
+C:\amakalu\ImageSearch\picSearch\picApp\forms.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 110 - value: b'Canon\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 116 - value: b'Canon EOS 250D\x00'
+tag: XResolution (282) - type: rational (5) Tag Location: 46 - Data Location: 132 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: YResolution (283) - type: rational (5) Tag Location: 58 - Data Location: 140 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+tag: Software (305) - type: string (2) Tag Location: 82 - Data Location: 148 - value: <table: 49 bytes>
+tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 198 - value: b'2026:02:09 15:41:07\x00'
+tag: ExifIFD (34665) - type: long (4) - value: b'\xda\x00\x00\x00'
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FitsStubImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 110 - value: b'Canon\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 116 - value: b'Canon EOS 250D\x00'
+tag: XResolution (282) - type: rational (5) Tag Location: 46 - Data Location: 132 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: YResolution (283) - type: rational (5) Tag Location: 58 - Data Location: 140 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+tag: Software (305) - type: string (2) Tag Location: 82 - Data Location: 148 - value: <table: 49 bytes>
+tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 198 - value: b'2026:02:09 15:41:15\x00'
+tag: ExifIFD (34665) - type: long (4) - value: b'\xda\x00\x00\x00'
+Starting new HTTPS connection (1): github.com:443
+https://github.com:443 "GET /serengil/deepface_models/releases/download/v1.0/facenet_weights.h5 HTTP/1.1" 302 0
+Starting new HTTPS connection (1): release-assets.githubusercontent.com:443
+https://release-assets.githubusercontent.com:443 "GET /github-production-release-asset/382368840/13deaa80-db92-11eb-8660-0962434d98ba?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-05-26T07%3A10%3A04Z&rscd=attachment%3B+filename%3Dfacenet_weights.h5&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-05-26T06%3A09%3A10Z&ske=2026-05-26T07%3A10%3A04Z&sks=b&skv=2018-11-09&sig=W5hEQO%2BkiEQ9Y7tQ16X0HB6x%2B7o2QEhF%2BiwI%2FR%2FtCuU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3OTc3NzYwNywibmJmIjoxNzc5Nzc1ODA3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.iErWy89f7D9lYbMkjkcKgPR0tuLI8BWofsOI8Kqhxn8&response-content-disposition=attachment%3B%20filename%3Dfacenet_weights.h5&response-content-type=application%2Foctet-stream HTTP/1.1" 200 92190816
+Creating converter from 3 to 5
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 3 to 5
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 3 to 5
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 3 to 5
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 3 to 5
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 110 - value: b'Canon\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 116 - value: b'Canon EOS 250D\x00'
+tag: XResolution (282) - type: rational (5) Tag Location: 46 - Data Location: 132 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: YResolution (283) - type: rational (5) Tag Location: 58 - Data Location: 140 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+tag: Software (305) - type: string (2) Tag Location: 82 - Data Location: 148 - value: <table: 49 bytes>
+tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 198 - value: b'2026:02:09 15:41:01\x00'
+tag: ExifIFD (34665) - type: long (4) - value: b'\xda\x00\x00\x00'
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FitsStubImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Internal Server Error: /submit/
+Traceback (most recent call last):
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\picApp\views.py", line 41, in submit_child
+    encoding = DeepFace.represent(img_path=image_full_path, model=facenet_model, enforce_detection=False)
+                                                                  ^^^^^^^^^^^^^
+NameError: name 'facenet_model' is not defined
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 110 - value: b'Canon\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 116 - value: b'Canon EOS 250D\x00'
+tag: XResolution (282) - type: rational (5) Tag Location: 46 - Data Location: 132 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: YResolution (283) - type: rational (5) Tag Location: 58 - Data Location: 140 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+tag: Software (305) - type: string (2) Tag Location: 82 - Data Location: 148 - value: <table: 49 bytes>
+tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 198 - value: b'2026:02:09 15:41:01\x00'
+tag: ExifIFD (34665) - type: long (4) - value: b'\xda\x00\x00\x00'
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FitsStubImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Starting new HTTPS connection (1): github.com:443
+https://github.com:443 "GET /serengil/deepface_models/releases/download/v1.0/facenet_weights.h5 HTTP/1.1" 302 0
+Starting new HTTPS connection (1): release-assets.githubusercontent.com:443
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+https://release-assets.githubusercontent.com:443 "GET /github-production-release-asset/382368840/13deaa80-db92-11eb-8660-0962434d98ba?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-05-26T07%3A12%3A51Z&rscd=attachment%3B+filename%3Dfacenet_weights.h5&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-05-26T06%3A12%3A31Z&ske=2026-05-26T07%3A12%3A51Z&sks=b&skv=2018-11-09&sig=0h8tgD3dqNQBLmJUX4h%2Bst8xK3yaw8MPglz1F%2F94m98%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3OTc3ODk4NiwibmJmIjoxNzc5Nzc3MTg2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.2jbo4L1hBJjyU5WQTV-MZEWxaqTX4gyyT8XzkMvLO78&response-content-disposition=attachment%3B%20filename%3Dfacenet_weights.h5&response-content-type=application%2Foctet-stream HTTP/1.1" 200 92190816
+Internal Server Error: /submit/
+Traceback (most recent call last):
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\picApp\views.py", line 51, in submit_child
+    encoding = DeepFace.represent(img_path=image_full_path, model=get_facenet_model(), enforce_detection=False)
+                                                                  ^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\picApp\views.py", line 22, in get_facenet_model
+    get_facenet_model.model = DeepFace.build_model('Facenet')
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\deepface\DeepFace.py", line 80, in build_model
+    model = model()
+            ^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\deepface\basemodels\Facenet.py", line 1634, in loadModel
+    gdown.download(url, output, quiet=False)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\gdown\download.py", line 275, in download
+    for file in os.listdir(osp.dirname(output) or "."):
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\amakalu\\ImageSearch/.deepface/weights'
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 110 - value: b'Canon\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 116 - value: b'Canon EOS 250D\x00'
+tag: XResolution (282) - type: rational (5) Tag Location: 46 - Data Location: 132 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: YResolution (283) - type: rational (5) Tag Location: 58 - Data Location: 140 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+tag: Software (305) - type: string (2) Tag Location: 82 - Data Location: 148 - value: <table: 49 bytes>
+tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 198 - value: b'2026:02:09 15:41:01\x00'
+tag: ExifIFD (34665) - type: long (4) - value: b'\xda\x00\x00\x00'
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FitsStubImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Starting new HTTPS connection (1): github.com:443
+https://github.com:443 "GET /serengil/deepface_models/releases/download/v1.0/facenet_weights.h5 HTTP/1.1" 302 0
+Starting new HTTPS connection (1): release-assets.githubusercontent.com:443
+https://release-assets.githubusercontent.com:443 "GET /github-production-release-asset/382368840/13deaa80-db92-11eb-8660-0962434d98ba?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-05-26T07%3A12%3A51Z&rscd=attachment%3B+filename%3Dfacenet_weights.h5&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-05-26T06%3A12%3A31Z&ske=2026-05-26T07%3A12%3A51Z&sks=b&skv=2018-11-09&sig=0h8tgD3dqNQBLmJUX4h%2Bst8xK3yaw8MPglz1F%2F94m98%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3OTc3ODk4NiwibmJmIjoxNzc5Nzc3MTg2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.2jbo4L1hBJjyU5WQTV-MZEWxaqTX4gyyT8XzkMvLO78&response-content-disposition=attachment%3B%20filename%3Dfacenet_weights.h5&response-content-type=application%2Foctet-stream HTTP/1.1" 200 92190816
+Internal Server Error: /submit/
+Traceback (most recent call last):
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\picApp\views.py", line 51, in submit_child
+    encoding = DeepFace.represent(img_path=image_full_path, model=get_facenet_model(), enforce_detection=False)
+                                                                  ^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\picApp\views.py", line 22, in get_facenet_model
+    get_facenet_model.model = DeepFace.build_model('Facenet')
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\deepface\DeepFace.py", line 80, in build_model
+    model = model()
+            ^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\deepface\basemodels\Facenet.py", line 1634, in loadModel
+    gdown.download(url, output, quiet=False)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\gdown\download.py", line 275, in download
+    for file in os.listdir(osp.dirname(output) or "."):
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\amakalu\\ImageSearch/.deepface/weights'
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 110 - value: b'Canon\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 116 - value: b'Canon EOS 250D\x00'
+tag: XResolution (282) - type: rational (5) Tag Location: 46 - Data Location: 132 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: YResolution (283) - type: rational (5) Tag Location: 58 - Data Location: 140 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+tag: Software (305) - type: string (2) Tag Location: 82 - Data Location: 148 - value: <table: 49 bytes>
+tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 198 - value: b'2026:02:09 15:41:01\x00'
+tag: ExifIFD (34665) - type: long (4) - value: b'\xda\x00\x00\x00'
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FitsStubImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Starting new HTTPS connection (1): github.com:443
+https://github.com:443 "GET /serengil/deepface_models/releases/download/v1.0/facenet_weights.h5 HTTP/1.1" 302 0
+Starting new HTTPS connection (1): release-assets.githubusercontent.com:443
+https://release-assets.githubusercontent.com:443 "GET /github-production-release-asset/382368840/13deaa80-db92-11eb-8660-0962434d98ba?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-05-26T07%3A18%3A23Z&rscd=attachment%3B+filename%3Dfacenet_weights.h5&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-05-26T06%3A17%3A28Z&ske=2026-05-26T07%3A18%3A23Z&sks=b&skv=2018-11-09&sig=tMG%2B43MFV3%2B7vxaGWQ2HKl2iqZM%2FdhW5u2MdjOjOvB4%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3OTc3OTIyNywibmJmIjoxNzc5Nzc3NDI3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.5WCvH_eH8bTC46SnnXvLkyowTqUxLJqik_NEosWTEKc&response-content-disposition=attachment%3B%20filename%3Dfacenet_weights.h5&response-content-type=application%2Foctet-stream HTTP/1.1" 200 92190816
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 110 - value: b'Canon\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 116 - value: b'Canon EOS 250D\x00'
+tag: XResolution (282) - type: rational (5) Tag Location: 46 - Data Location: 132 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: YResolution (283) - type: rational (5) Tag Location: 58 - Data Location: 140 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+tag: Software (305) - type: string (2) Tag Location: 82 - Data Location: 148 - value: <table: 49 bytes>
+tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 198 - value: b'2026:02:09 15:41:01\x00'
+tag: ExifIFD (34665) - type: long (4) - value: b'\xda\x00\x00\x00'
+Starting new HTTPS connection (1): github.com:443
+https://github.com:443 "GET /serengil/deepface_models/releases/download/v1.0/facenet_weights.h5 HTTP/1.1" 302 0
+Starting new HTTPS connection (1): release-assets.githubusercontent.com:443
+https://release-assets.githubusercontent.com:443 "GET /github-production-release-asset/382368840/13deaa80-db92-11eb-8660-0962434d98ba?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-05-26T07%3A18%3A23Z&rscd=attachment%3B+filename%3Dfacenet_weights.h5&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-05-26T06%3A17%3A28Z&ske=2026-05-26T07%3A18%3A23Z&sks=b&skv=2018-11-09&sig=tMG%2B43MFV3%2B7vxaGWQ2HKl2iqZM%2FdhW5u2MdjOjOvB4%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3OTc3OTIyNywibmJmIjoxNzc5Nzc3NDI3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.5WCvH_eH8bTC46SnnXvLkyowTqUxLJqik_NEosWTEKc&response-content-disposition=attachment%3B%20filename%3Dfacenet_weights.h5&response-content-type=application%2Foctet-stream HTTP/1.1" 200 92190816
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 110 - value: b'Canon\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 116 - value: b'Canon EOS 250D\x00'
+tag: XResolution (282) - type: rational (5) Tag Location: 46 - Data Location: 132 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: YResolution (283) - type: rational (5) Tag Location: 58 - Data Location: 140 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+tag: Software (305) - type: string (2) Tag Location: 82 - Data Location: 148 - value: <table: 49 bytes>
+tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 198 - value: b'2026:02:09 15:41:01\x00'
+tag: ExifIFD (34665) - type: long (4) - value: b'\xda\x00\x00\x00'
+Starting new HTTPS connection (1): github.com:443
+https://github.com:443 "GET /serengil/deepface_models/releases/download/v1.0/facenet_weights.h5 HTTP/1.1" 302 0
+Starting new HTTPS connection (1): release-assets.githubusercontent.com:443
+https://release-assets.githubusercontent.com:443 "GET /github-production-release-asset/382368840/13deaa80-db92-11eb-8660-0962434d98ba?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-05-26T07%3A18%3A23Z&rscd=attachment%3B+filename%3Dfacenet_weights.h5&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-05-26T06%3A17%3A28Z&ske=2026-05-26T07%3A18%3A23Z&sks=b&skv=2018-11-09&sig=tMG%2B43MFV3%2B7vxaGWQ2HKl2iqZM%2FdhW5u2MdjOjOvB4%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3OTc3OTIyNywibmJmIjoxNzc5Nzc3NDI3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.5WCvH_eH8bTC46SnnXvLkyowTqUxLJqik_NEosWTEKc&response-content-disposition=attachment%3B%20filename%3Dfacenet_weights.h5&response-content-type=application%2Foctet-stream HTTP/1.1" 200 92190816
+Not Found: /favicon.ico
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 110 - value: b'Canon\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 116 - value: b'Canon EOS 250D\x00'
+tag: XResolution (282) - type: rational (5) Tag Location: 46 - Data Location: 132 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: YResolution (283) - type: rational (5) Tag Location: 58 - Data Location: 140 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+tag: Software (305) - type: string (2) Tag Location: 82 - Data Location: 148 - value: <table: 49 bytes>
+tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 198 - value: b'2026:02:09 15:41:15\x00'
+tag: ExifIFD (34665) - type: long (4) - value: b'\xda\x00\x00\x00'
+Starting new HTTPS connection (1): github.com:443
+https://github.com:443 "GET /serengil/deepface_models/releases/download/v1.0/facenet_weights.h5 HTTP/1.1" 302 0
+Starting new HTTPS connection (1): release-assets.githubusercontent.com:443
+https://release-assets.githubusercontent.com:443 "GET /github-production-release-asset/382368840/13deaa80-db92-11eb-8660-0962434d98ba?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-05-26T07%3A39%3A33Z&rscd=attachment%3B+filename%3Dfacenet_weights.h5&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-05-26T06%3A39%3A31Z&ske=2026-05-26T07%3A39%3A33Z&sks=b&skv=2018-11-09&sig=RWJHoCVJ99yroNrjyXhEStAiL3VWwscYNVFsE4TZXQk%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3OTc3OTM5NSwibmJmIjoxNzc5Nzc3NTk1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.toj1PsHWLs3_2cPB6urhDN9iZcpz_rhXbrJLbYSFIhs&response-content-disposition=attachment%3B%20filename%3Dfacenet_weights.h5&response-content-type=application%2Foctet-stream HTTP/1.1" 200 92190816
+Creating converter from 3 to 5
+Internal Server Error: /submit/
+Traceback (most recent call last):
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\picApp\views.py", line 54, in submit_child
+    encoding = DeepFace.represent(img_path=image_full_path, model=get_facenet_model(), enforce_detection=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: represent() got an unexpected keyword argument 'model'
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 3 to 5
+Creating converter from 3 to 5
+Creating converter from 3 to 5
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 110 - value: b'Canon\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 116 - value: b'Canon EOS 250D\x00'
+tag: XResolution (282) - type: rational (5) Tag Location: 46 - Data Location: 132 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: YResolution (283) - type: rational (5) Tag Location: 58 - Data Location: 140 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+tag: Software (305) - type: string (2) Tag Location: 82 - Data Location: 148 - value: <table: 49 bytes>
+tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 198 - value: b'2026:02:09 15:41:15\x00'
+tag: ExifIFD (34665) - type: long (4) - value: b'\xda\x00\x00\x00'
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FitsStubImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Internal Server Error: /submit/
+Traceback (most recent call last):
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\picApp\views.py", line 54, in submit_child
+    encoding = DeepFace.represent(img_path=image_full_path, model=get_facenet_model(), enforce_detection=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: represent() got an unexpected keyword argument 'model'
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 3 to 5
+Creating converter from 3 to 5
+Creating converter from 3 to 5
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 110 - value: b'Canon\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 116 - value: b'Canon EOS 250D\x00'
+tag: XResolution (282) - type: rational (5) Tag Location: 46 - Data Location: 132 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: YResolution (283) - type: rational (5) Tag Location: 58 - Data Location: 140 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+tag: Software (305) - type: string (2) Tag Location: 82 - Data Location: 148 - value: <table: 49 bytes>
+tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 198 - value: b'2026:02:09 15:41:15\x00'
+tag: ExifIFD (34665) - type: long (4) - value: b'\xda\x00\x00\x00'
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FitsStubImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 110 - value: b'Canon\x00'
+tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 116 - value: b'Canon EOS 250D\x00'
+tag: XResolution (282) - type: rational (5) Tag Location: 46 - Data Location: 132 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: YResolution (283) - type: rational (5) Tag Location: 58 - Data Location: 140 - value: b'\xf0\x00\x00\x00\x01\x00\x00\x00'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+tag: Software (305) - type: string (2) Tag Location: 82 - Data Location: 148 - value: <table: 49 bytes>
+tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 198 - value: b'2026:02:09 15:18:11\x00'
+tag: ExifIFD (34665) - type: long (4) - value: b'\xda\x00\x00\x00'
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\picApp\views.py", line 92, in search_child
+    return render(request, "search_results.html", {"similar_children": similar})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\amakalu\ImageSearch\picSearch\.venv311\Lib\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 3: 'block'. Looking for one of: endblock.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 3 to 5
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 3 to 5
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+C:\amakalu\ImageSearch\picSearch\picApp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 3 to 5
+Creating converter from 3 to 5
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 3 to 5
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 3 to 5
+tag: ImageWidth (256) - type: long (4) - value: b'\xa0\x0f\x00\x00'
+tag: ImageLength (257) - type: long (4) - value: b'\xb8\x0b\x00\x00'
+tag: Make (271) - type: string (2) Tag Location: 46 - Data Location: 170 - value: b'samsung\x00'
+tag: Model (272) - type: string (2) Tag Location: 58 - Data Location: 178 - value: b'SM-A515F\x00'
+tag: Orientation (274) - type: short (3) - value: b'\x06\x00'
+tag: XResolution (282) - type: rational (5) Tag Location: 82 - Data Location: 187 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+tag: YResolution (283) - type: rational (5) Tag Location: 94 - Data Location: 195 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+tag: Software (305) - type: string (2) Tag Location: 118 - Data Location: 203 - value: b'A515FXXU5EUJ4\x00'
+tag: DateTime (306) - type: string (2) Tag Location: 130 - Data Location: 217 - value: b'2022:10:20 11:12:13\x00'
+tag: YCbCrSubSampling (530) - type: short (3) - value: b'\x02\x00\x02\x00'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+tag: ExifIFD (34665) - type: long (4) - value: b'\xee\x00\x00\x00'
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FitsStubImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 3 to 5
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 3 to 5
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 3 to 5
+tag: ImageWidth (256) - type: long (4) - value: b'\xa0\x0f\x00\x00'
+tag: ImageLength (257) - type: long (4) - value: b'\xb8\x0b\x00\x00'
+tag: Make (271) - type: string (2) Tag Location: 46 - Data Location: 170 - value: b'samsung\x00'
+tag: Model (272) - type: string (2) Tag Location: 58 - Data Location: 178 - value: b'SM-A515F\x00'
+tag: Orientation (274) - type: short (3) - value: b'\x06\x00'
+tag: XResolution (282) - type: rational (5) Tag Location: 82 - Data Location: 187 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+tag: YResolution (283) - type: rational (5) Tag Location: 94 - Data Location: 195 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+tag: Software (305) - type: string (2) Tag Location: 118 - Data Location: 203 - value: b'A515FXXU5EUJ4\x00'
+tag: DateTime (306) - type: string (2) Tag Location: 130 - Data Location: 217 - value: b'2022:10:20 11:12:13\x00'
+tag: YCbCrSubSampling (530) - type: short (3) - value: b'\x02\x00\x02\x00'
+tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+tag: ExifIFD (34665) - type: long (4) - value: b'\xee\x00\x00\x00'
